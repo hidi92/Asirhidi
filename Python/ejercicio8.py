@@ -5,7 +5,7 @@ def ejer8():
     while valor == True:
         numero = int(input("Introduce un numero"))
         if numero == 0:
-
+            derecho.sort()
             reves.sort(reverse=True)
             print("Al derecho",derecho)
             #print(reves)
