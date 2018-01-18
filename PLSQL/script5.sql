@@ -1,0 +1,14 @@
+SET SERVEROUTPUT ON; 
+
+DECLARE
+	contador NUMBER(3) := 0;
+
+BEGIN
+	
+	FOR contador IN 1..100 LOOP
+		DBMS_OUTPUT.PUT_LINE ('Hola Steven');
+	END LOOP;
+	
+END;
+/
+SET SERVEROUTPUT ON;
