@@ -1,4 +1,4 @@
-import os, time, ejercicio1, ejercicio2, ejercicio3, ejercicio4
+import os, time, ejercicio1, ejercicio2, ejercicio3, ejercicio4, ejercicio5
 
 
 def limpiar():
@@ -15,7 +15,7 @@ def menu():
 
                0.Salir
 
-               1.Realiza un ejercicio que me permita convertir números binarios en enteros. Utiliza una función
+               1.Realiza un ejercicio que me permita convertir números binarios en enteros y viceversa. Utiliza una función
 
                2.Realiza un ejercicio que te permita introducir una frase y te muestre el número de veces que se repiten las letras.
 
@@ -31,7 +31,15 @@ def menu():
             continue
         if menuopc == "1":
             print("Has seleccionado el Ejercicio 1, empezemos:")
-            ejercicio1.ejer1()
+            print("""Que quieres hacer, pasar un decimal a binario o un binario a decimal:
+                    1. Decimal a binario.
+                    2. Binario a decimal.
+                  """)
+            opcion = int(input("Introduce una opcion"))
+            if opcion == 1:
+                ejercicio1.ejer1_2()
+            if opcion == 2:
+                ejercicio1.ejer1_1()
             limpiar()
             continue
         if menuopc == "2":
@@ -47,6 +55,11 @@ def menu():
         if menuopc == "4":
             print("Has seleccionado el Ejercicio 4, empezemos:")
             ejercicio4.ejer4()
+            limpiar()
+            continue
+        if menuopc == "5":
+            print("Has seleccionado el Ejercicio 5, empezemos:")
+            ejercicio5.ejer5()
             limpiar()
             continue
 
