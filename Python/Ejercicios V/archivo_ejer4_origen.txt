@@ -1,0 +1,4 @@
+Realiza un ejercicio que me permita convertir números binarios en enteros. Utiliza una función
+Realiza un ejercicio que te permita introducir una frase y te muestre el número de veces que se repiten las letras.
+Realiza un ejercicio que te indique si el año que introduces es bisiesto. Utiliza una función.
+Realiza un ejercicio que te pida un fichero, lea linea a linea y las copie en un nuevo fichero.

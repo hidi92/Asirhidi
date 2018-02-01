@@ -1,0 +1,5 @@
+david;25;no
+alicia ;4;si
+jorge;12;no
+andoni;22;no
+fernando;13;si
