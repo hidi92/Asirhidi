@@ -22,6 +22,8 @@ def menu():
                3.Realiza un ejercicio que te indique si el año que introduces es bisiesto. Utiliza una función.
 
                4.Realiza un ejercicio que te pida un fichero, lea linea a linea y las copie en un nuevo fichero.
+               
+               5.Tienes los nombres de tus compañeros. Realiza un ejercicio que te muestre los nombres que comiencen por "D" y acaben en "o"
                """)
         menuopc = input("Introduce una opcion")
 
