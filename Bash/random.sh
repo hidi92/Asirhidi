@@ -1,1 +1,1 @@
-echo $((RAMDOM%100))
+echo $((RANDOM%100))
