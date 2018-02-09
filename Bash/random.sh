@@ -1,0 +1,1 @@
+echo $((RAMDOM%100))
